@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=750px, user-scalable=no">
+		<title></title>
+	</head>
+	
+	<link rel="stylesheet" href="css/yiding.css"/>
+	<link rel="stylesheet" href="lib/ionic/css/ionic.css"
+ 	<style>
+	
+	</style>
+	
+	<body ng-controller="myController">
+		  <header>	
+		  	
+		  	<h3>确认订单</h3>
+		  	<a href="index.html"><button ></button></a>
+		  </header>
+		  
+		  <div class="order">
+		  	<div class="client">
+		  		<i></i>
+		  		<span>阿国是糖</span>
+		  	</div>
+		  	<ul>
+		  		
+		  		<li ng-repeat="item in list" ng-if="item.tongzhuo">
+		  			<span>{{item.name}}</span>
+		  			<div class="priceDetail">
+		  				<strong>￥{{item.price}}</strong>
+			  			<i>/{{item.unit}}</i>
+			  			<b class="reduce" ng-click="jian($index)"></b>
+			  			<u>{{item.tongzhuo}}</u>
+			  			<b ng-click="jia($index)"></b>
+		  			</div>
+		  			
+		  		</li>
+		  		
+		  	</ul>
+		  	
+		  	
+		  </div>
+		  
+		  
+		  
+	<footer>
+		<div class="myOrder">已点{{totalNum}}道菜</div>
+		<div class="allOrder" ng-click='black()'><a>上传厨房</a></div>
+		
+	</footer>	  
+		  
+		  
+		<div class="black" ng-show="flag&&on" >
+		
+		</div>  
+		    <div class="myWhite" ng-show="flag&&on">
+				<p>
+				确定让厨房开始制作菜品了吗？
+				
+			</p>
+			<button ng-click="cancel()">取消</button>
+			<a href="kitchen.html"><button>确定</button></a>
+			</div>
+			
+		  
+        
+        <script type="text/javascript" src="js/angular.min.js" ></script>
+		<script type="text/javascript" src="js/yidian.js" ></script>	  		  		  		  		  		  
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

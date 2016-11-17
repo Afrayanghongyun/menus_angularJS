@@ -1,0 +1,108 @@
+[{
+    "id": 1,
+    "name": "主菜",
+    "class": "zhucai",
+    "ifChose": true,
+    "items": [{
+        "id": 1,
+        "name": "三金耗儿鱼",
+        "price": 318.00,
+        "unit": "锅",
+        "tongzhuo": 0,
+        "pic": "img/banner.png"
+    }, {
+        "id": 1,
+        "name": "好大一条鱼",
+        "price": 128.00,
+        "unit": "条",
+        "tongzhuo": 0,
+        "pic": "img/banner.png"
+    },{
+        "id": 1,
+        "name": "好大一条鱼11",
+        "price": 128.00,
+        "unit": "条",
+        "tongzhuo": 0,
+        "pic": "img/banner.png"
+    }]
+},{
+    "id": 2,
+    "name": "热菜",
+    "class": "hot",
+    "ifChose": false,
+    "items": [{
+        "id": 2,
+        "name": "三金耗儿鱼33331",
+        "price": 318.00,
+        "unit": "锅",
+        "tongzhuo": 0,
+        "pic": "img/banner.png"
+    }, {
+        "id": 2,
+        "name": "好大一条鱼333332",
+        "price": 128.00,
+        "unit": "条",
+        "tongzhuo": 0,
+        "pic": "img/banner.png"
+    }]
+},{
+    "id": 3,
+    "name": "凉菜",
+    "class": "cool",
+    "ifChose": false,
+    "items": [{
+        "id": 3,
+        "name": "三金耗儿鱼33333",
+        "price": 318.00,
+        "unit": "锅",
+        "tongzhuo": 0,
+        "pic": "img/banner.png"
+    }, {
+        "id": 3,
+        "name": "好大一条鱼333334",
+        "price": 128.00,
+        "unit": "条",
+        "tongzhuo": 0,
+        "pic": "img/banner.png"
+    }]
+},{
+    "id": 4,
+    "name": "汤品",
+    "class": "soup",
+    "ifChose": false,
+    "items": [{
+        "id": 4,
+        "name": "三金耗儿鱼33335",
+        "price": 318.00,
+        "unit": "锅",
+        "tongzhuo": 0,
+        "pic": "img/banner.png"
+    }, {
+        "id": 4,
+        "name": "好大一条鱼333336",
+        "price": 128.00,
+        "unit": "条",
+        "tongzhuo": 0,
+        "pic": "img/banner.png"
+    }]
+},{
+    "id": 5,
+    "name": "甜点",
+    "class": "cookie",
+    "ifChose": false,
+    "items": [{
+        "id": 5,
+        "name": "三金耗儿鱼33337",
+        "price": 318.00,
+        "unit": "锅",
+        "tongzhuo": 0,
+        "pic": "img/banner.png"
+    }, {
+        "id": 5,
+        "name": "好大一条鱼333338",
+        "price": 128.00,
+        "unit": "条",
+        "tongzhuo": 0,
+        "pic": "img/banner.png"
+    }]
+}]

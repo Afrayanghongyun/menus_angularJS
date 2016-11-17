@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	<meta name="viewport" content="width=750px, user-scalable=no">
+	<link rel="stylesheet" href="css/index.css" />
+	
+	</head>
+	<body ng-controller='myController'>		
+		<header class="index-header">
+			<h1>三斤耗儿鱼</h1>
+			<span>渝北店,8号桌</span>			
+		</header>
+		<div class="main">
+			<ul class="nav">
+				<li ng-repeat="item in contentData" ng-click="myClick($index)" ng-class="{true: 'active'}[item.ifChose]">
+					<a href="">
+						<span class="{{item.class}}"></span>
+						
+						{{item.name}}
+					</a>
+				</li>								
+			</ul>
+			
+			<ul class="list">
+				<h3>{{title}}</h3>
+				<li ng-repeat="item in listData">
+					<a>
+					<div class="dinner-pic">
+						<img  ng-src='{{item.pic}}' alt="">
+						<span class="zhuo"><i></i>同桌已点{{ item.tongzhuo }}份</span>
+					</div>
+					
+					<h5>{{ item.name }} </h5>
+					<span><i>￥{{item.price}}</i>/{{item.unit}}</span>
+					<div class="numDetail">
+						 <span  class="myreduce" ng-model="add" ng-click="myReduce($index)" ng-show="item.tongzhuo"></span>
+					  
+					  <span class="myAdd" ng-model="add" ng-click="myAddFun($index)"></span>
+					  <i>{{item.tongzhuo}}</i>
+					</div>
+					</a>
+				</li>
+									
+			</ul>
+			
+		</div>
+		
+		
+	<footer>
+		<div class="myOrder">已点{{totalNum}}道菜  总价{{total}} </div>
+		<div class="allOrder" ng-class="totalNum<1?gray:allOrder"  ng-disabled="false"><a href="yidian.html" >已点菜单</a></div>
+		
+		
+		
+	</footer>	
+		
+		
+		<script type="text/javascript" src="js/angular.min.js" ></script>
+		<script type="text/javascript" src="js/index.js" ></script>
+		
+	</body>
+</html>

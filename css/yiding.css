@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  max-width: 750px;
+  min-width: 320px;
+  margin: 0 auto;
+  position: relative;
+  background: #f4f4f4;
+}
+header {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  margin-bottom: 10px;
+  position: relative;
+  background: white;
+}
+header h3 {
+  line-height: 80px;
+  color: black;
+  font-size: 28px;
+  text-align: center;
+  height: 80px;
+  width: 100%;
+}
+header button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 80px;
+  background: url(../img/er.png) no-repeat 17px 24px #fff;
+  border: none;
+}
+.order {
+  width: 100%;
+  border-top: 1px solid darkgrey;
+  border-bottom: 1px solid darkgrey;
+  background: white;
+  margin-top: 18px;
+}
+.order .client {
+  height: 50px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-bottom: 1px dashed darkgray;
+}
+.order .client i {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: url(../img/head01.png) no-repeat center;
+  float: left;
+}
+.order .client span {
+  display: inline-block;
+  float: left;
+  color: darkgray;
+  font-size: 16px;
+  margin-left: 8px;
+  line-height: 40px;
+}
+.order ul {
+  width: 90%;
+  margin: 0 auto;
+  list-style: none;
+}
+.order ul li {
+  border-bottom: 1px solid darkgray;
+  height: 60px;
+  position: relative;
+}
+.order ul li span {
+  font-size: 20px;
+  line-height: 60px;
+}
+.order ul li .priceDetail {
+  position: absolute;
+  margin-top: 10px;
+  height: 40px;
+  top: 0;
+  right: 0;
+  display: flex;
+}
+.order ul li .priceDetail strong {
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 100;
+  display: block;
+  height: 40px;
+}
+.order ul li .priceDetail u {
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  margin-left: 16px;
+  margin-right: 16px;
+  height: 40px;
+}
+.order ul li .priceDetail i {
+  font-size: 20px;
+  line-height: 40px;
+  display: block;
+  margin-left: 2px;
+  margin-right: 20px;
+  height: 40px;
+  color: darkgray;
+}
+.order ul li .priceDetail b {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: red;
+  background: url(../img/add.png) no-repeat center red;
+}
+.order ul li .priceDetail .reduce {
+  box-sizing: border-box;
+  border: 1px solid red;
+  background: white;
+  background: url(../img/reduce.png) no-repeat center white;
+}
+.order ul li:last-child {
+  border: none;
+}
+footer {
+  width: 100%;
+  height: 98px;
+  background: #3e3a39;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+footer .myOrder {
+  width: 65%;
+  float: left;
+  height: 100%;
+  font-size: 22px;
+  color: white;
+  line-height: 98px;
+  text-indent: 10px;
+}
+footer .allOrder {
+  width: 35%;
+  float: left;
+  height: 100%;
+  background: #6b615e;
+  color: #999999;
+  line-height: 98px;
+  text-align: center;
+  font-size: 22px;
+  cursor: pointer;
+}
+footer .allOrder a {
+  color: red;
+}
+.black {
+  width: 750px;
+  height: 600px;
+  background: black;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+.myWhite {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  background: white;
+  position: absolute;
+  top: 100px;
+  left: 175px;
+  opacity: 1;
+}
+.myWhite p {
+  width: 100%;
+  line-height: 120px;
+  height: 120px;
+  border-bottom: 1px solid lightgray;
+  font-size: 28px;
+  color: black;
+  margin: 0;
+}
+.myWhite button {
+  width: 199px;
+  color: red;
+  text-align: center;
+  height: 80px;
+  background: white;
+  font-size: 30px;
+  border-radius: 10px;
+  border: none;
+  float: left;
+}
+/*# sourceMappingURL=yiding.css.map */

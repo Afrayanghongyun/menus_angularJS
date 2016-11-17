@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=750px, user-scalable=no">
+		<title>kitchen</title>
+	</head>
+	<style>
+	*{margin: 0;padding: 0;}
+	a{
+		text-decoration: none;
+	}
+	html,body{
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	body{
+		max-width: 750px;
+		min-width: 320px;
+		margin: 0 auto;
+		position: relative;
+		background: #f4f4f4;
+		text-align: center;
+	}
+	.guo{
+			width: 100%;
+			height: 228px;
+			background: #f4f4f4;
+			text-align: center;
+			padding-top: 100px;
+			
+		}
+	.guoImg{
+		width: 226px;
+		height: 226px;
+		border-radius: 50%;
+		background: white;
+		background: url(img/guo.png) center center no-repeat #fff;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	h3{
+		color:#d6d6d6 ;
+		font-size: 32px;
+		margin-top: 30px;
+	}
+	button{
+		width: 280px;
+		height: 86px;
+		background: red;
+		border: none;
+		color: white;
+		line-height: 86px;
+		text-align: center;
+		margin-top: 90px;
+		font-size: 32px;
+		border-radius: 10px;
+	}
+	</style>
+	<body>
+		<div class="guo">
+			<div  class="guoImg">
+				
+			</div>
+		</div>
+		<h3>厨房已开始制作,请耐心等候</h3>
+		<a href="index.html">
+		<button class="order">
+			继续点菜
+		</button>
+		</a>
+		<script>			
+			var a=document.getElementsByClassName("order")
+			  a[0].onclick=function(){
+				
+				 localStorage.clear();
+			  }
+						
+		</script>
+		
+		
+		
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
